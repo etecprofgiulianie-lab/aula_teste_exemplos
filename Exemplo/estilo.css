@@ -1,0 +1,84 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+
+  text-align: center;
+
+  margin: 0;
+  padding: 48px 24px;
+}
+
+h1 {
+  color: #66ccff;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #e0e0e0;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+a {
+  display: inline-block;
+
+  background-color: #66ccff;
+  color: #121212;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #b3e5ff;
+}
+
+a:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+/* Aparência do botão */
+button {
+  background-color: #66ccff;
+  color: #121212;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+  padding: 12px 24px;
+  margin: 16px 0;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #b3e5ff;
+}
+
+button:active {
+  background-color: #39a9e0;
+}
+
+button:focus-visible {
+  outline: 3px solid #ffcc00;
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1b263b;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  color: #66ccff;
+  font-size: 36px;
+}
+
+header p {
+  color: #e0e0e0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+a {
+  color: #8cdaff;
+  text-underline-offset: 4px;
+}
+
+nav a {
+  padding: 10px 18px;
+  border-radius: 8px;
+  background-color: #66ccff;
+  color: #121212;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #b3e5ff;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 20px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 28px;
+  border: 1px solid #444444;
+  border-radius: 12px;
+  background-color: #202020;
+}
+
+h2 {
+  margin-top: 0;
+  color: #66ccff;
+  font-size: 26px;
+}
+
+strong {
+  color: #ffda79;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 12px;
+  color: #d0d0d0;
+  font-size: 16px;
+}
+
+form {
+  max-width: 480px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #202020;
+  font: inherit;
+}
+
+input::placeholder {
+  color: #666666;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #66ccff;
+  color: #121212;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b3e5ff;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #ffda79;
+  outline-offset: 4px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #1b263b;
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Explicação da tecnologia selecionada */
+#descricao {
+  padding: 12px;
+  border-left: 4px solid #66ccff;
+  background-color: #162a36;
+  color: #ffffff;
+}
+
+/* Resultado: aparece como uma caixa quando há mensagem */
+#resultado:not(:empty) {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #66ccff;
+  border-radius: 8px;
+  background-color: #162a36;
+  color: #ffffff;
+}
+
+/* Número de envios */
+#contador {
+  color: #ffda79;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
